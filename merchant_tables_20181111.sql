@@ -132,7 +132,7 @@ create table t_receipt_accounts
             alipay_sp：支付宝个人
             wechat_sp：微信个人
             ',
-   payment_type         char(10) comment '支付类型
+   payment_type         varchar(50) comment '支付类型
             alipay_qr：支付宝扫码
             alipay_app：支付宝app
             wechat_qr：微信扫码
